@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+main{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#heading{
+    font-size: 30px;
+    margin: 30px 0px;
+}
+#dropdown{
+    width: 130px;
+    height: 40px;
+    margin-bottom: 30px;
+    padding-left: 7px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+#filterBtn{
+    padding: 9px 50px;
+    font-size: 14px;
+}
+#result div{
+    width: 400px;
+    margin: 15px 0px;
+    padding: 12px 7px; 
+    border: 1px solid white;
+    border-radius: 8px;
+    word-spacing: 15px;
+}
